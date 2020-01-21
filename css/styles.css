@@ -76,11 +76,11 @@ label::after {
   transform: translate(15%, -50%)scale(1.3);
 }
 
-/*[type="checkbox"]:focus+ ::before {
+[type="checkbox"]:focus+ ::before {
   outline: medium dotted powderblue;
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
