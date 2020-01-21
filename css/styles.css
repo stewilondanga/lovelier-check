@@ -21,7 +21,6 @@ body {
   height: 1.5em;
 }
 
-/*
 [type="checkbox"] {
   position: relative;
   opacity: 0;
@@ -29,7 +28,7 @@ body {
   z-index: 1;
 }
 
-label {
+/*label {
   --font-size: 1em;
   position: relative;
   font-size: var(--font-size);
