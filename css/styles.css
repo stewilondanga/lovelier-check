@@ -36,9 +36,9 @@ label {
   width: var(--font-size);
 }
 
-/*label::before {
+label::before {
   /*box*/
-/*content: "";
+  /*content: "";
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -52,7 +52,7 @@ label {
 
 label::after {
   /*checkmark*/
-/*content: "\1f394";
+  /*content: "\1f394";
   display: inline-block;
   width: 100%;
   height: 100%;
