@@ -71,12 +71,12 @@ label::after {
   background: repeating-linear-gradient(to right top, deeppink 1px, transparent 9px);
 }
 
-/*[type="checkbox"]:checked+ ::after {
+[type="checkbox"]:checked+ ::after {
   opacity: 1;
   transform: translate(15%, -50%)scale(1.3);
 }
 
-[type="checkbox"]:focus+ ::before {
+/*[type="checkbox"]:focus+ ::before {
   outline: medium dotted powderblue;
 }
 
