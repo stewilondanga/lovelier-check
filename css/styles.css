@@ -65,13 +65,13 @@ label::after {
   transition: all 0.1s;
 }
 
-/*[type="checkbox"]:checked+ ::before {
+[type="checkbox"]:checked+ ::before {
   height: 100%;
   width: 100%;
   background: repeating-linear-gradient(to right top, deeppink 1px, transparent 9px);
 }
 
-[type="checkbox"]:checked+ ::after {
+/*[type="checkbox"]:checked+ ::after {
   opacity: 1;
   transform: translate(15%, -50%)scale(1.3);
 }
