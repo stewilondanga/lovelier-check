@@ -38,7 +38,7 @@ label {
 
 label::before {
   /*box*/
-  /*content: "";
+  content: "";
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -50,9 +50,9 @@ label::before {
   transition: all 0.1s;
 }
 
-label::after {
+/*label::after {
   /*checkmark*/
-  /*content: "\1f394";
+/*content: "\1f394";
   display: inline-block;
   width: 100%;
   height: 100%;
